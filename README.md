@@ -29,3 +29,8 @@ git branch
 git checkout master
 git merge staging
 ```
+
+### 커밋 로그 보고 싶을때
+```
+git log
+```
