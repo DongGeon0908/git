@@ -22,3 +22,10 @@ git stash apply (가장 최근꺼 가져오기)
 ```
 git cherry-pick (가져오고 싶은 커밋)
 ```
+
+### 간단 머지 (branch가 master와 staging만 있는 경우)
+```
+git branch
+git checkout master
+git merge staging
+```
