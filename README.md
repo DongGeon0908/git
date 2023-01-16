@@ -39,3 +39,12 @@ git log
 ```
 git rebase --abort
 ```
+
+### 올라간 Commit을 지우기 
+```
+git rebase - i 커밋HASH (해당 커밋 지점 위에 부터 로그 가져옴)
+
+삭제하고 싶은 commit의 pick을 drop으로 변경
+
+git push origin or git push -f origin (변경된 커밋을 remote에 반영하자)
+```
