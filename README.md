@@ -34,3 +34,8 @@ git merge staging
 ```
 git log
 ```
+
+### GIT REBASE 하다가 실수 했을 때 Rebase 종료하기
+```
+git rebase --abort
+```
