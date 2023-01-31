@@ -48,3 +48,8 @@ git rebase - i 커밋HASH (해당 커밋 지점 위에 부터 로그 가져옴)
 
 git push origin or git push -f origin (변경된 커밋을 remote에 반영하자)
 ```
+
+### Git Config 정보 조회
+```
+git config --list
+```
