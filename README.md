@@ -53,3 +53,8 @@ git push origin or git push -f origin (변경된 커밋을 remote에 반영하�
 ```
 git config --list
 ```
+
+### 마지막 커밋명 바꾸기
+```
+git commit --amend -m "커밋내용"
+```
