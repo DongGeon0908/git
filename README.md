@@ -68,3 +68,12 @@ git commit --amend --no-edit --date "$(date)"
 ```
 git commit --amend --no-edit --date "Sat 29 Apr 2023 20:19:19 KST"
 ```
+
+### Merge
+```
+git merge --ff [브랜치명] -> merge commit 없이 head를 대상으로 
+
+git merge --no-ff [브랜치명] -> merge commit 생성
+
+git merge --squash [브랜치명] -> 하나로 통합하여 머지
+```
