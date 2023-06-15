@@ -77,3 +77,10 @@ git merge --no-ff [브랜치명] -> merge commit 생성
 
 git merge --squash [브랜치명] -> 하나로 통합하여 머지
 ```
+
+### Git Commit 합치기
+
+```
+git rebase -i HEAD~3   <- 헤드포함 2개 커밋 : 총3개
+합치고 싶은 커밋을 pick에서 s로, 그리고 나면 커밋명 정리만 하면 끝!
+```
